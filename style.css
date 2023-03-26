@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.rst{
+     color: #ffffff;
+     font-size: 250px;
+     font-family: 'Raleway', sans-serif;
+}
+
+div.desc{
+
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card{
+    margin: 20px;
+    width: 400px;
+height: 600px;
+border-radius: 1px;
+background: var(--i);
+background-size: cover;
+box-shadow: rgba(255, 223, 223, 0.07) 0px 1px 2px, rgba(226, 243, 255, 0.07) 0px 2px 4px, rgba(218, 249, 255, 0.07) 0px 4px 8px, rgba(233, 250, 255, 0.07) 0px 8px 16px, rgba(233, 245, 255, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+
+  }
+  
+  .card .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+
+  }
+  
+  .card:hover .text {
+    opacity: 1;
+    visibility: visible;
+
+  }
+  
+  .card:hover .text p {
+    color: white;
+
+  }
+  
+  .card .text p {
+    color: black;
+    text-align: center;
+    margin-top: 50%;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card img {
+    /* otras propiedades */
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  .card img:hover {
+    /* otras propiedades */
+    opacity: 50%;
+    filter: blur(0.6px);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: black;
+}
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    opacity: 0.8; /* Cambia la opacidad a 0.8 cuando se coloca el mouse encima */
+  }
+  
+  .card .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Hace que el texto no interactúe con el cursor del mouse */
+  }
+
+  .card .text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+
+.desc{
+ width: 50%;
+  margin: auto;
+} 
+ 
+.rst{
+  width: 50%;
+  margin: auto;
+}
+
+.R1{
+  font-family: 'Asap', sans-serif;
+  color: rgba(255, 255, 255, 0.568);
+  width: 50%;
+  margin: auto;
+}
+
+
+.R1{
+  color: #fffdfd44; /* Establece el color de texto original */
+  transition: color 0.5s ease; /* Agrega una transición de color suave de 0.5 segundos */
+}
+
+.R1:hover{
+  color: #fff; /* Hace que el color del texto se vuelva blanco */
+}
+
+.R2{
+  font-family: 'Asap', sans-serif;
+  color: rgba(255, 255, 255, 0.568);
+  width: 50%;
+  margin: auto;
+}
+
+
+.R2{
+  color: #fffdfd44; /* Establece el color de texto original */
+  transition: color 0.5s ease; /* Agrega una transición de color suave de 0.5 segundos */
+}
+
+.R2:hover{
+  color: #fff; /* Hace que el color del texto se vuelva blanco */
+}
+
+.R3{
+  font-family: 'Asap', sans-serif;
+  color: rgba(255, 255, 255, 0.568);
+  width: 50%;
+  margin: auto;
+}
+
+
+.R3{
+  color: #fffdfd44; /* Establece el color de texto original */
+  transition: color 0.5s ease; /* Agrega una transición de color suave de 0.5 segundos */
+}
+
+.R3:hover{
+  color: #fff; /* Hace que el color del texto se vuelva blanco */
+}
+
+
+
